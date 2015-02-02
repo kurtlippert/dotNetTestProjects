@@ -403,8 +403,17 @@
     <Content Include="Content\Bootstrap\js\tooltip.js" />
     <Content Include="Content\Bootstrap\js\transition.js" />
     <Content Include="Content\Bootstrap\test-infra\requirements.txt" />
+    <Content Include="Content\Site.css">
+      <DependentUpon>Site.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.min.css">
+      <DependentUpon>Site.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Content\Site.css.map">
+      <DependentUpon>Site.css</DependentUpon>
+    </Content>
     <None Include="Content\Site.less" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
