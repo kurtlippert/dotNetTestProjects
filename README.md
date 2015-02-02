@@ -1,4 +1,4 @@
 dotNetTestProjects
 ==================
 
-Personal projects for learning MVC 5 and Web API 2.0
+Personal projects for learning different dotNet / Pluralsight things
